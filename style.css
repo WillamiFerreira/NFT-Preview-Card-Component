@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    --font: 'Outfit', sans-serif;
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan:hsl(178, 100%, 50%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: var(--Cyan);
+}
+img{
+    display: block;
+}
+.img-area img{
+    width: 100%;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    font-size: 18px;
+    font-family: var(--font);
+    background-color: var(--main-bg)
+}
+main{
+    max-width: 327px;
+    background-color: var(--card-bg);
+    padding: 24px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.text-area div{
+    display: flex;
+}
+h3{
+    margin: 20px 0 20px 0;
+    color: white;
+}
+h3:hover{
+    color: var(--Cyan);
+}
+.paragraph{
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: white;
+}
+.stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8em;
+    gap: 33%;
+}
+.it1{
+    color: var(--Cyan);
+}
+.it2{
+    color: var(--Soft-blue)
+}
+.stats img{
+    margin-right: 0.2em;
+}
+hr{
+    margin: 10px 0 10px 0;
+    color: var(--line);
+}
+.user-area{
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: var(--Soft-blue);
+}
+.user-area img{
+    border-radius: 50%;
+    border: 1.5px solid white;
+    width: 35px;
+    margin-right: 1em;
+
+}
