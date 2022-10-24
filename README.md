@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-Aprendi a user melhor a propriedade position, principalmente os valores relative e absolute. Aprendi como sobrepor uma imagem em outra.
+I learned how to use the position property better, mainly it's values: relative and absolute, as well as how to overlap one image over another one.
 
 To see how you can add code snippets, see below:
 
@@ -77,8 +77,9 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [Stack Overflow Question](https://pt.stackoverflow.com/questions/44678/qual-a-diferen%C3%A7a-entre-displaynone-e-visibilityhidden) - Isso me ajudou a mostrar o icone de view usando o hover.
-- [iMasters ](https://imasters.com.br/css/como-sobrepor-imagens-com-div-e-css) - Isso me ajudou a entender melhor o funcionamento do valores absolute e relative da propriedade position e como sobrepor uma imagem em cima de outra.
+- [Stack Overflow Question](https://pt.stackoverflow.com/questions/44678/qual-a-diferen%C3%A7a-entre-displaynone-e-visibilityhidden) - 
+This helped me to show the view icon only when the mouse cursor is on it(hover).
+- [iMasters ](https://imasters.com.br/css/como-sobrepor-imagens-com-div-e-css) - This help to better understand how the position property works, and how to overlap one image over another.
 
 ## Author
 
